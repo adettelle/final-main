@@ -5,7 +5,6 @@ import (
 	"fmt"
 
 	"github.com/adettelle/main-final/pkg/parcels"
-	// "github.com/adettelle/main-final/pkg/parcel"
 	_ "modernc.org/sqlite"
 )
 
