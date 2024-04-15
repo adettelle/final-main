@@ -17,7 +17,6 @@ jobs:
   
   # Задание проверяет код на соответствие стилю и отсутствие логических ошибок
   lint:
-    # Задание "lint" зависит от заданий "tests" и "tests-race" и будет выполнено после них
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -31,7 +30,7 @@ jobs:
     needs: lint
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: actions/setup-go@v4
 
     - name: Test
