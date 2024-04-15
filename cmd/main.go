@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/adettelle/main-final/pkg/parcels"
+	"github.com/adettelle/final-project-12th-sprint/pkg/parcels"
 	_ "modernc.org/sqlite"
 )
 

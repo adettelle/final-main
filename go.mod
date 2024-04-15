@@ -1,4 +1,4 @@
-module github.com/adettelle/main-final
+module github.com/adettelle/final-project-12th-sprint
 
 go 1.22.2
 
