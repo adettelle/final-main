@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # извлекает репозиторий для дальнейшей работы с ним
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: actions/setup-go@v4 # установит Go в систему
 
     - name: Build
@@ -20,7 +20,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-go@v4
       # Используется действие "golangci/golangci-lint-action@v3", которое запускает линтер. Он проверит код на соответствие стилю и отсутствие логических ошибок
       - uses: golangci/golangci-lint-action@v3
