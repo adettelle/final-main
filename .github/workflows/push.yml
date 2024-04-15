@@ -62,9 +62,9 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: litvinski/project12-token
+          images: litvinski/final-project-12th-sprint
 
-      - name: Build and push Docker Inage
+      - name: Build and push Docker Image
         uses: docker/build-push-action@v5
         with:
           context: .
